@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8c08c1cda.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="print-area">
+
+        <div class="header">
+            <img src="me.jpg" alt="My personal pic">
+            <div class="header-text">
+                <h1>Manuel Sedano</h1>
+                <h2>Student Developer</h2>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left-area">
+                <div class="contact">
+                    <h4>CONTACT ME</h4>
+                    <h5>Phone</h5>
+                    <p>+(52) 33 3138 6937</p>
+                    <h5>Email</h5>
+                    <p>manuel.sedano7475@alumnos.udg.mx</p>
+                    <h5>Home</h5>
+                    <p>Guadalajara Jalisco in Mexico</p>
+                    <h5>References</h5>
+                    <p>+(52)33 1846 0772</p>
+                    <p>+(52)33 3476 8072</p>
+
+                </div>
+                <div class="skills">
+                    <h1>SKILLS</h1>
+                    <div class="bars">
+                        <div class="bar">
+                            <p>Photoshop 70%</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>Python 75%</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>C++ 65%</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>Unity and Blender 80%</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>English 80%</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>C# 70%</p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="follow">
+                    <h1>FOLLOW ME</h1>
+                    <h4>Facebook</h4>
+                    <a href="https://www.facebook.com/manuel.sedanoluna/" target="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <h4>Instagram</h4>
+                    <a href="https://www.instagram.com/manuelsedanoluna/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <h4>Github</h4>
+                    <a href="https://github.com/manuelsedano" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                
+
+            </div>
+
+            <div class="right-area">
+                <div class="about">
+                    <h1><span><i class="far fa-user"></i></span>ABOUT ME</h1>
+                    <p>I'd want to tell you a little bit about myself. I'm Manuel Sedano Luna, 21 years old, a resident of Guadalajara, Jalisco, and a student at the University of Guadalajara. I'm pursuing a degree in computer systems engineering and am currently in my seventh semester of study for the same degree. I enjoy learning new things and practicing them in my daily life. I have a keen interest in programming and am now learning to use Python at an advanced level. I also have a keen interest in video games and am learning to use Unity and Blender without skipping over the typical HTML, CSS, and JavaScript portions of websites.</p>
+                </div>
+                <div class="work">
+                    <h1><span><i class="fas fa-suitcase-rolling"></i></span>PROJECTS</h1>
+                    <div class="work-group">
+                        <h3>cybersecurity</h3>
+                        <h4>Sniffer</h4>
+                        <span> 2020-2021</span>
+                        <p>The development of a sniffer in the field of networks throughout my career, where we intercepted network data and examined the sorts of packets it included, was a project I was happy to complete.</p>
+                    </div>
+                    <div class="work-group">
+                        <h3>web designer</h3>
+                        <h4>student agenda</h4>
+                        <span> 2021-2022</span>
+                        <p>In the field of software engineering, we created a web page using the Scrull methodology and a variety of technologies, including Photoshop and Canva for creating the brand and logos, Jira for project management and organization, and finally C# and MySQL for building the page. The goal was to assist the student in organizing their homework visually using a calendar.</p>
+                    </div>
+                </div>
+                <div class="interest">
+                    <h1><span><i class="fa-solid fa-user-tie"></i></span>PROFESSIONAL INTERESTS</h1>
+                    <div class="Job">
+                        <h3>Freelance in Fiverr</h3>
+                        <p>On the Fiverr marketplace, I would want to begin working independently and offer my web design skills.</p>
+                    </div>
+                </div>
+                <div class="education">
+                    <h1><span><i class="fas fa-graduation-cap"></i></span>EDUCATION</h1>
+                    <div class="edu-group">
+                        <h4>Computer Systems Engineering in University of Guadalajara</h4>
+                        <span> 2019-2023</span>
+                        <p>A profession in computer systems engineering is focused on the creation, development, implementation, and upkeep of computer systems. I've learned a lot about programming in several languages for the production of language translators during the last two semesters of my profession, including embedded systems, CRUD, applied to networks and databases, among other things B2.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <button>Print CV</button>
+    <script>
+            const btn = document.querySelector('button');
+            btn.addEventListener('click', () => {
+                window.print();
+            })
+    </script>
+    
+</body>
+</html>
